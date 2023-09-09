@@ -12,7 +12,7 @@ $color-akku: #00A99C;
     background-color: #fff;
 }
 .banner-top{
-    background: url('/image/01.jpg');
+    background: url('../../image/01.jpg');
     @include background-img-mixin;
     margin-bottom: 40px;
     &__contents{
@@ -77,7 +77,7 @@ $color-akku: #00A99C;
 }
 .our-services{
     padding: 3rem 0;
-    background: #00000080 url('/image/menu/10.jpg');
+    background: #00000080 url('../../image/menu/10.jpg');
     @include background-img-mixin;
     &-iner{
         text-align: center;
@@ -165,7 +165,7 @@ $color-akku: #00A99C;
     }
 }
 .opening{
-    background: #00000060 url(../../image/09.jpg);
+    background: #00000060 url('../../image/09.jpg');
     @include background-img-mixin;
     &-hour{
         padding-top: 3rem;
@@ -249,7 +249,7 @@ $color-akku: #00A99C;
     }
 }
 .blog{
-    background: #00000060 url(../../image/blog/01.jpg);
+    background: #00000060 url('../../image/blog/01.jpg');
     @include background-img-mixin;
     &-iner{
         padding-top: 3rem;
@@ -278,7 +278,7 @@ $color-akku: #00A99C;
                     border: 1px solid #ffffff50;
                     transition: all 1s ease;
                     &:hover{
-                        background: #00000060 url(../../image/gallery/11.jpg);
+                        background: #00000060 url('../../image/gallery/11.jpg');
                     }
                     &__iner{
                     margin-left: 3rem;
@@ -372,7 +372,7 @@ $color-akku: #00A99C;
     }
 }
 .chefs{
-    background: #00000090 url(../../image/chefs/04.jpg);
+    background: #00000090 url('../../image/chefs/04.jpg');
     @include background-img-mixin;
     &-iner{
         padding: 3rem 0;

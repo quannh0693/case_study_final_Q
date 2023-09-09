@@ -52,7 +52,7 @@
 }
 
 .banner-top {
-  background: url("/image/01.jpg");
+  background: url("../../image/01.jpg");
   width: 100%;
   height: auto;
   background-size: cover;
@@ -180,7 +180,7 @@
 
 .our-services {
   padding: 3rem 0;
-  background: rgba(0, 0, 0, 0.5019607843) url("/image/menu/10.jpg");
+  background: rgba(0, 0, 0, 0.5019607843) url("../../image/menu/10.jpg");
   width: 100%;
   height: auto;
   background-size: cover;
@@ -268,7 +268,7 @@
 }
 
 .opening {
-  background: rgba(0, 0, 0, 0.3764705882) url(../../image/09.jpg);
+  background: rgba(0, 0, 0, 0.3764705882) url("../../image/09.jpg");
   width: 100%;
   height: auto;
   background-size: cover;
@@ -355,7 +355,7 @@
 }
 
 .blog {
-  background: rgba(0, 0, 0, 0.3764705882) url(../../image/blog/01.jpg);
+  background: rgba(0, 0, 0, 0.3764705882) url("../../image/blog/01.jpg");
   width: 100%;
   height: auto;
   background-size: cover;
@@ -393,7 +393,7 @@
   transition: all 1s ease;
 }
 .blog-iner-items__item__content:hover {
-  background: rgba(0, 0, 0, 0.3764705882) url(../../image/gallery/11.jpg);
+  background: rgba(0, 0, 0, 0.3764705882) url("../../image/gallery/11.jpg");
 }
 .blog-iner-items__item__content__iner {
   margin-left: 3rem;
@@ -477,7 +477,7 @@
 }
 
 .chefs {
-  background: rgba(0, 0, 0, 0.5647058824) url(../../image/chefs/04.jpg);
+  background: rgba(0, 0, 0, 0.5647058824) url("../../image/chefs/04.jpg");
   width: 100%;
   height: auto;
   background-size: cover;

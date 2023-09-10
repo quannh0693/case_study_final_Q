@@ -19,13 +19,13 @@
 
 </head>
 <body class="main">
-    <nav class="header navbar navbar-expand-md navbar-sticky" aria-label="Light offcanvas navbar">
+    <nav class="header navbar navbar-expand-md" id="header" aria-label="Light offcanvas navbar">
     <div class="header-items container">
-      <a class="header-items__logo navbar-brand col-xl-6 col-md-4 col-6" href="#"><img src="./image/logo.png" alt="AKKU coffe"></a>
+      <a class="header-items__logo navbar-brand col-lg-6 col-md-3 col-6" href="#"><img src="./image/logo.png" alt="AKKU coffe"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarLight" aria-controls="offcanvasNavbarLight">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="header-items__mobile offcanvas offcanvas-end col-xl-6 col-md-8 col-6" tabindex="-1" id="offcanvasNavbarLight" aria-labelledby="offcanvasNavbarLightLabel">
+      <div class="header-items__mobile offcanvas offcanvas-end col-lg-6 col-md-9 col-6" tabindex="-1" id="offcanvasNavbarLight" aria-labelledby="offcanvasNavbarLightLabel">
         <div class="header-items__mobile__logo offcanvas-header">
           <a class="" href="#"><img src="./image/logo.png" alt="AKKU coffe"></a>
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -33,54 +33,62 @@
         <div class="offcanvas-body header-items__mobile__right">
           <ul class="header-items__mobile__right__items navbar-nav justify-content-end flex-grow-1 pe-3">
             <li class="header-items__mobile__right__items__item nav-item">
-              <a class="fw-bold nav-link" aria-current="page" href="#"><span>Home</span></a>
+              <a class="fw-bold nav-link" aria-current="page" href="#banner"><span>Home</span></a>
             </li>
             <li class="header-items__mobile__right__items__item nav-item">
-              <a class="fw-bold nav-link" href="#"><span>About</span></a>
+              <a class="fw-bold nav-link" href="#about"><span>About</span></a>
             </li>
             <li class="header-items__mobile__right__items__item nav-item">
-              <a class="fw-bold nav-link" aria-current="page" href="#"><span>Sevices</span></a>
+              <a class="fw-bold nav-link" aria-current="page" href="#services"><span>Sevices</span></a>
             </li>
             <li class="header-items__mobile__right__items__item nav-item">
-              <a class="fw-bold nav-link" href="#"><span>Menu</span></a>
+              <a class="fw-bold nav-link" href="#special"><span>Menu</span></a>
             </li>
             <li class="header-items__mobile__right__items__item nav-item">
-              <a class="fw-bold nav-link" aria-current="page" href="#"><span>Blog</span></a>
+              <a class="fw-bold nav-link" aria-current="page" href="#blog"><span>Blog</span></a>
             </li>
             <li class="header-items__mobile__right__items__item nav-item">
-              <a class="fw-bold nav-link" href="#"><span>Contact</span></a>
+              <a class="fw-bold nav-link" href="#contacts"><span>Contact</span></a>
             </li>
           </ul>
         </div>
       </div>
     </div>
     </nav>
-    <main>
-      <section class="banner-top">
-        <div class="banner-top__contents col-12 container">
-          <div class="banner-top__contents__content col-xl-5">
-            <p class="banner-top__contents__content__top fw-bold">WELCOME TO</p>
-            <h1 class="banner-top__contents__content__title fw-bold">Elegant Theme for Restaurants ,Cafes & Food Related Business</h1>
-            <p class="banner-top__contents__content__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut mollitia ipsa, error aperiam at suscipit.</p>
-            <p class="banner-top__contents__content__btn">Order Now</p>
+    <main class="main-items">
+      <section class="banner-top" id="banner">
+        <div class="col-12">
+          <div class="banner-top__contents container">
+            <div class="col-lg-5">
+              <div class="banner-top__contents__content">
+                <p class="banner-top__contents__content__top fw-bold">WELCOME TO</p>
+                <h1 class="banner-top__contents__content__title fw-bold">Elegant Theme for Restaurants ,Cafes & Food Related Business</h1>
+                <p class="banner-top__contents__content__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut mollitia ipsa, error aperiam at suscipit.</p>
+                <p class="banner-top__contents__content__btn">Order Now</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-      <section class="about-us">
+      <section class="about-us" id="about">
         <div class="about-us-contents container">
-          <div class="about-us-contents__text col-xl-6 col-md-12 col-12">
-            <p class="about-us-contents__text__top fw-bold">About Us</p>
-            <h2>We Are The Modern Restaurant In Our City</h2>
-            <p class="about-us-contents__text__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt mollitia atque possimus similique id, officia corporis ipsam veritatis aspernatur eum vitae neque dicta ratione doloribus quas, ut, tempore ex illo ullam voluptatum velit ad accusamus! Quas dicta beatae qui minus. ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, eveniet fugiat qui incidunt numquam blanditiis maxime dolorum quibusdam perspiciatis, consectetur in, sint repudiandae, facere. Nulla fugiat labore dolor, in unde.</p>
-            <p class="about-us-contents__text__btn">Read More</p>
+          <div class="col-lg-6 col-12">
+            <div class="about-us-contents__text">
+              <p class="about-us-contents__text__top fw-bold">About Us</p>
+              <h2>We Are The Modern Restaurant In Our City</h2>
+              <p class="about-us-contents__text__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt mollitia atque possimus similique id, officia corporis ipsam veritatis aspernatur eum vitae neque dicta ratione doloribus quas, ut, tempore ex illo ullam voluptatum velit ad accusamus! Quas dicta beatae qui minus. ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, eveniet fugiat qui incidunt numquam blanditiis maxime dolorum quibusdam perspiciatis, consectetur in, sint repudiandae, facere. Nulla fugiat labore dolor, in unde.</p>
+              <p class="about-us-contents__text__btn">Read More</p>
+            </div>
           </div>
-          <div class="about-us-contents__img col-xl-6 col-md-12 col-12">
-            <div class="front"><img src="./image/02.jpg" alt="Akku coffe"></div>
-            <div class="back"><img src="./image/02.jpg" alt="Akku coffe"></div>
+          <div class="col-lg-6 col-12">
+            <div class="about-us-contents__img">
+              <div class="front"><img src="./image/02.jpg" alt="Akku coffe"></div>
+              <div class="back"><img src="./image/02.jpg" alt="Akku coffe"></div>
+            </div>
           </div>
         </div>
       </section>
-      <section class="our-services">
+      <section class="our-services" id="services">
         <div class="our-services-iner">
           <h2 class="fw-bold">Our Services</h2>
           <div class="our-services-iner-items container items__carousel owl-carousel">
@@ -117,126 +125,146 @@
           </div>
         </div>
       </section>
-      <section class="special-menu">
+      <section class="special-menu" id="special">
         <div class="container">
           <div class="special-menu-menus">
-            <div class="special-menu-menus__title col-12 mb-4">
-              <p class="fw-bold">Our Special Menu</p>
+            <div class="col-12 mb-4">
+              <div class="special-menu-menus__title">
+                <p class="fw-bold">Our Special Menu</p>
+              </div>
             </div>
-            <div class="special-menu-menus-items col-xl-4 col-md-12 col-12">
-              <div class="special-menu-menus-items__item">
-                <img src="./image/menu/01.jpg" alt="Akku coffe">
-                <div class="special-menu-menus-items__item__contents">
-                  <div class="special-menu-menus-items__item__contents__title">
-                    <span class="special-menu-menus-items__item__contents__title__1">Raw Cake</span>
-                    <span class="special-menu-menus-items__item__contents__title__2"> </span>
-                    <span class="special-menu-menus-items__item__contents__title__3">$15</span>
+            <div class="col-lg-4 col-12">
+              <div class="special-menu-menus-items">
+                <div class="special-menu-menus-items__item">
+                  <img src="./image/menu/01.jpg" alt="Akku coffe">
+                  <div class="special-menu-menus-items__item__contents">
+                    <div class="special-menu-menus-items__item__contents__title">
+                      <span class="special-menu-menus-items__item__contents__title__1">Raw Cake</span>
+                      <span class="special-menu-menus-items__item__contents__title__2"> </span>
+                      <span class="special-menu-menus-items__item__contents__title__3">$15</span>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, velit?</p>
                   </div>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, velit?</p>
                 </div>
               </div>
             </div>
-            <div class="special-menu-menus-items col-xl-4 col-md-12 col-12">
-              <div class="special-menu-menus-items__item">
-                <img src="./image/menu/02.jpg" alt="Akku coffe">
-                <div class="special-menu-menus-items__item__contents">
-                  <div class="special-menu-menus-items__item__contents__title">
-                    <span class="special-menu-menus-items__item__contents__title__1">Plant Burger</span>
-                    <span class="special-menu-menus-items__item__contents__title__2"> </span>
-                    <span class="special-menu-menus-items__item__contents__title__3">$18</span>
+            <div class="col-lg-4 col-12">
+              <div class="special-menu-menus-items">
+                <div class="special-menu-menus-items__item">
+                  <img src="./image/menu/02.jpg" alt="Akku coffe">
+                  <div class="special-menu-menus-items__item__contents">
+                    <div class="special-menu-menus-items__item__contents__title">
+                      <span class="special-menu-menus-items__item__contents__title__1">Plant Burger</span>
+                      <span class="special-menu-menus-items__item__contents__title__2"> </span>
+                      <span class="special-menu-menus-items__item__contents__title__3">$18</span>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, velit?</p>
                   </div>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, velit?</p>
                 </div>
               </div>
             </div>
-            <div class="special-menu-menus-items col-xl-4 col-md-12 col-12">
-              <div class="special-menu-menus-items__item">
-                <img src="./image/menu/03.jpg" alt="Akku coffe">
-                <div class="special-menu-menus-items__item__contents">
-                  <div class="special-menu-menus-items__item__contents__title">
-                    <span class="special-menu-menus-items__item__contents__title__1">Mushrooms Pasta</span>
-                    <span class="special-menu-menus-items__item__contents__title__2"> </span>
-                    <span class="special-menu-menus-items__item__contents__title__3">$10</span>
+            <div class="col-lg-4 col-12">
+              <div class="special-menu-menus-items">
+                <div class="special-menu-menus-items__item">
+                  <img src="./image/menu/03.jpg" alt="Akku coffe">
+                  <div class="special-menu-menus-items__item__contents">
+                    <div class="special-menu-menus-items__item__contents__title">
+                      <span class="special-menu-menus-items__item__contents__title__1">Mushrooms Pasta</span>
+                      <span class="special-menu-menus-items__item__contents__title__2"> </span>
+                      <span class="special-menu-menus-items__item__contents__title__3">$10</span>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, velit?</p>
                   </div>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, velit?</p>
                 </div>
               </div>
             </div>
-            <div class="special-menu-menus-items col-xl-4 col-md-12 col-12">
-              <div class="special-menu-menus-items__item">
-                <img src="./image/menu/04.jpg" alt="Akku coffe">
-                <div class="special-menu-menus-items__item__contents">
-                  <div class="special-menu-menus-items__item__contents__title">
-                    <span class="special-menu-menus-items__item__contents__title__1">Orange Juice</span>
-                    <span class="special-menu-menus-items__item__contents__title__2"> </span>
-                    <span class="special-menu-menus-items__item__contents__title__3">$12</span>
+            <div class="col-lg-4 col-12">
+              <div class="special-menu-menus-items ">
+                <div class="special-menu-menus-items__item">
+                  <img src="./image/menu/04.jpg" alt="Akku coffe">
+                  <div class="special-menu-menus-items__item__contents">
+                    <div class="special-menu-menus-items__item__contents__title">
+                      <span class="special-menu-menus-items__item__contents__title__1">Orange Juice</span>
+                      <span class="special-menu-menus-items__item__contents__title__2"> </span>
+                      <span class="special-menu-menus-items__item__contents__title__3">$12</span>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, velit?</p>
                   </div>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, velit?</p>
                 </div>
               </div>
             </div>
-            <div class="special-menu-menus-items col-xl-4 col-md-12 col-12">
-              <div class="special-menu-menus-items__item">
-                <img src="./image/menu/05.jpg" alt="Akku coffe">
-                <div class="special-menu-menus-items__item__contents">
-                  <div class="special-menu-menus-items__item__contents__title">
-                    <span class="special-menu-menus-items__item__contents__title__1">Fish pie</span>
-                    <span class="special-menu-menus-items__item__contents__title__2"> </span>
-                    <span class="special-menu-menus-items__item__contents__title__3">$15</span>
+            <div class="col-lg-4 col-12">
+              <div class="special-menu-menus-items ">
+                <div class="special-menu-menus-items__item">
+                  <img src="./image/menu/05.jpg" alt="Akku coffe">
+                  <div class="special-menu-menus-items__item__contents">
+                    <div class="special-menu-menus-items__item__contents__title">
+                      <span class="special-menu-menus-items__item__contents__title__1">Fish pie</span>
+                      <span class="special-menu-menus-items__item__contents__title__2"> </span>
+                      <span class="special-menu-menus-items__item__contents__title__3">$15</span>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, velit?</p>
                   </div>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, velit?</p>
                 </div>
               </div>
             </div>
-            <div class="special-menu-menus-items col-xl-4 col-md-12 col-12">
-              <div class="special-menu-menus-items__item">
-                <img src="./image/menu/06.jpg" alt="Akku coffe">
-                <div class="special-menu-menus-items__item__contents">
-                  <div class="special-menu-menus-items__item__contents__title">
-                    <span class="special-menu-menus-items__item__contents__title__1">Garden salad</span>
-                    <span class="special-menu-menus-items__item__contents__title__2"> </span>
-                    <span class="special-menu-menus-items__item__contents__title__3">$9</span>
+            <div class="col-lg-4 col-12">
+              <div class="special-menu-menus-items ">
+                <div class="special-menu-menus-items__item">
+                  <img src="./image/menu/06.jpg" alt="Akku coffe">
+                  <div class="special-menu-menus-items__item__contents">
+                    <div class="special-menu-menus-items__item__contents__title">
+                      <span class="special-menu-menus-items__item__contents__title__1">Garden salad</span>
+                      <span class="special-menu-menus-items__item__contents__title__2"> </span>
+                      <span class="special-menu-menus-items__item__contents__title__3">$9</span>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, velit?</p>
                   </div>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, velit?</p>
                 </div>
               </div>
             </div>
-            <div class="special-menu-menus-items col-xl-4 col-md-12 col-12">
-              <div class="special-menu-menus-items__item">
-                <img src="./image/menu/07.jpg" alt="Akku coffe">
-                <div class="special-menu-menus-items__item__contents">
-                  <div class="special-menu-menus-items__item__contents__title">
-                    <span class="special-menu-menus-items__item__contents__title__1">Chicken Wings</span>
-                    <span class="special-menu-menus-items__item__contents__title__2"> </span>
-                    <span class="special-menu-menus-items__item__contents__title__3">$22</span>
+            <div class="col-lg-4 col-12">
+              <div class="special-menu-menus-items ">
+                <div class="special-menu-menus-items__item">
+                  <img src="./image/menu/07.jpg" alt="Akku coffe">
+                  <div class="special-menu-menus-items__item__contents">
+                    <div class="special-menu-menus-items__item__contents__title">
+                      <span class="special-menu-menus-items__item__contents__title__1">Chicken Wings</span>
+                      <span class="special-menu-menus-items__item__contents__title__2"> </span>
+                      <span class="special-menu-menus-items__item__contents__title__3">$22</span>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, velit?</p>
                   </div>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, velit?</p>
                 </div>
               </div>
             </div>
-            <div class="special-menu-menus-items col-xl-4 col-md-12 col-12">
-              <div class="special-menu-menus-items__item">
-                <img src="./image/menu/08.jpg" alt="Akku coffe">
-                <div class="special-menu-menus-items__item__contents">
-                  <div class="special-menu-menus-items__item__contents__title">
-                    <span class="special-menu-menus-items__item__contents__title__1">Brewed coffee</span>
-                    <span class="special-menu-menus-items__item__contents__title__2"> </span>
-                    <span class="special-menu-menus-items__item__contents__title__3">$13</span>
+            <div class="col-lg-4 col-12">
+              <div class="special-menu-menus-items ">
+                <div class="special-menu-menus-items__item">
+                  <img src="./image/menu/08.jpg" alt="Akku coffe">
+                  <div class="special-menu-menus-items__item__contents">
+                    <div class="special-menu-menus-items__item__contents__title">
+                      <span class="special-menu-menus-items__item__contents__title__1">Brewed coffee</span>
+                      <span class="special-menu-menus-items__item__contents__title__2"> </span>
+                      <span class="special-menu-menus-items__item__contents__title__3">$13</span>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, velit?</p>
                   </div>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, velit?</p>
                 </div>
               </div>
             </div>
-            <div class="special-menu-menus-items col-xl-4 col-md-12 col-12">
-              <div class="special-menu-menus-items__item">
-                <img src="./image/menu/09.jpg" alt="Akku coffe">
-                <div class="special-menu-menus-items__item__contents">
-                  <div class="special-menu-menus-items__item__contents__title">
-                    <span class="special-menu-menus-items__item__contents__title__1">Shrimp Marinara</span>
-                    <span class="special-menu-menus-items__item__contents__title__2"> </span>
-                    <span class="special-menu-menus-items__item__contents__title__3">$10</span>
+            <div class="col-lg-4 col-12">
+              <div class="special-menu-menus-items ">
+                <div class="special-menu-menus-items__item">
+                  <img src="./image/menu/09.jpg" alt="Akku coffe">
+                  <div class="special-menu-menus-items__item__contents">
+                    <div class="special-menu-menus-items__item__contents__title">
+                      <span class="special-menu-menus-items__item__contents__title__1">Shrimp Marinara</span>
+                      <span class="special-menu-menus-items__item__contents__title__2"> </span>
+                      <span class="special-menu-menus-items__item__contents__title__3">$10</span>
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, velit?</p>
                   </div>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, velit?</p>
                 </div>
               </div>
             </div>
@@ -245,118 +273,158 @@
       </section>
       <section class="opening">
         <div class="opening-hour container">
-          <div class="opening-hour-contents col-12">
-            <p class="opening-hour-contents__1">Opening Hour</p>
-            <p class="opening-hour-contents__2">WE ARE OPEN EVERYDAY</p>
-            <p class="opening-hour-contents__3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe provident debitis voluptatum.</p>
-            <p class="opening-hour-contents__4">RESERVATION NUMBER</p>
-            <p class="opening-hour-contents__5">+11 22 33 44 55</p>
-            <p class="opening-hour-contents__6">Monday to Friday</p>
-            <p class="opening-hour-contents__7">09 : 00 - 22 : 00</p>
+          <div class="col-12">
+            <div class="opening-hour-contents">
+              <p class="opening-hour-contents__1">Opening Hour</p>
+              <p class="opening-hour-contents__2">WE ARE OPEN EVERYDAY</p>
+              <p class="opening-hour-contents__3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe provident debitis voluptatum.</p>
+              <p class="opening-hour-contents__4">RESERVATION NUMBER</p>
+              <p class="opening-hour-contents__5">+11 22 33 44 55</p>
+              <p class="opening-hour-contents__6">Monday to Friday</p>
+              <p class="opening-hour-contents__7">09 : 00 - 22 : 00</p>
+            </div>
           </div>
         </div>
       </section>
       <section class="our-gallery">
         <div class="our-gallery-iner container">
           <div class="our-gallery-iner-items row">
-            <div class="our-gallery-iner-items__title col-12">
-              <p class="fw-bold">OUR GALLERY</p>
+            <div class="col-12">
+              <div class="our-gallery-iner-items__title">
+                <p class="fw-bold">OUR GALLERY</p>
+              </div>
             </div>
-            <div class="our-gallery-iner-items__item col-xl-3 col-md-12 col-12">
-              <img src="./image/gallery/01.jpg" alt="Akku coffe">
+            <div class="col-lg-3 col-12">
+              <div class="our-gallery-iner-items__item">
+                <img src="./image/gallery/01.jpg" alt="Akku coffe">
+              </div>
             </div>
-            <div class="our-gallery-iner-items__item col-xl-3 col-md-12 col-12">
-              <img src="./image/gallery/02.jpg" alt="Akku coffe">
+            <div class="col-lg-3 col-12">
+              <div class="our-gallery-iner-items__item">
+                <img src="./image/gallery/02.jpg" alt="Akku coffe">
+              </div>
             </div>
-            <div class="our-gallery-iner-items__item col-xl-3 col-md-12 col-12">
-              <img src="./image/gallery/03.jpg" alt="Akku coffe">
+            <div class="col-lg-3 col-12">
+              <div class="our-gallery-iner-items__item">
+                <img src="./image/gallery/03.jpg" alt="Akku coffe">
+              </div>
             </div>
-            <div class="our-gallery-iner-items__item col-xl-3 col-md-12 col-12">
-              <img src="./image/gallery/04.jpg" alt="Akku coffe">
+            <div class="col-lg-3 col-12">
+              <div class="our-gallery-iner-items__item">
+                <img src="./image/gallery/04.jpg" alt="Akku coffe">
+              </div>
             </div>
-            <div class="our-gallery-iner-items__item col-xl-3 col-md-12 col-12">
-              <img src="./image/gallery/05.jpg" alt="Akku coffe">
+            <div class="col-lg-3 col-12">
+              <div class="our-gallery-iner-items__item">
+                <img src="./image/gallery/05.jpg" alt="Akku coffe">
+              </div>
             </div>
-            <div class="our-gallery-iner-items__item col-xl-3 col-md-12 col-12">
-              <img src="./image/gallery/06.jpg" alt="Akku coffe">
+            <div class="col-lg-3 col-12">
+              <div class="our-gallery-iner-items__item">
+                <img src="./image/gallery/06.jpg" alt="Akku coffe">
+              </div>
             </div>
-            <div class="our-gallery-iner-items__item col-xl-3 col-md-12 col-12">
-              <img src="./image/gallery/07.jpg" alt="Akku coffe">
+            <div class="col-lg-3 col-12">
+              <div class="our-gallery-iner-items__item">
+                <img src="./image/gallery/07.jpg" alt="Akku coffe">
+              </div>
             </div>
-            <div class="our-gallery-iner-items__item col-xl-3 col-md-12 col-12">
-              <img src="./image/gallery/08.jpg" alt="Akku coffe">
+            <div class="col-lg-3 col-12">
+              <div class="our-gallery-iner-items__item">
+                <img src="./image/gallery/08.jpg" alt="Akku coffe">
+              </div>
             </div>
-            <div class="our-gallery-iner-items__item col-xl-3 col-md-12 col-12">
-              <img src="./image/gallery/09.jpg" alt="Akku coffe">
+            <div class="col-lg-3 col-12">
+              <div class="our-gallery-iner-items__item">
+                <img src="./image/gallery/09.jpg" alt="Akku coffe">
+              </div>
             </div>
-            <div class="our-gallery-iner-items__item col-xl-3 col-md-12 col-12">
-              <img src="./image/gallery/10.jpg" alt="Akku coffe">
+            <div class="col-lg-3 col-12">
+              <div class="our-gallery-iner-items__item">
+                <img src="./image/gallery/10.jpg" alt="Akku coffe">
+              </div>
             </div>
-            <div class="our-gallery-iner-items__item col-xl-3 col-md-12 col-12">
-              <img src="./image/gallery/11.jpg" alt="Akku coffe">
+            <div class="col-lg-3 col-12">
+              <div class="our-gallery-iner-items__item">
+                <img src="./image/gallery/11.jpg" alt="Akku coffe">
+              </div>
             </div>
-            <div class="our-gallery-iner-items__item col-xl-3 col-md-12 col-12">
-              <img src="./image/gallery/12.jpg" alt="Akku coffe">
+            <div class="col-lg-3 col-12">
+              <div class="our-gallery-iner-items__item">
+                <img src="./image/gallery/12.jpg" alt="Akku coffe">
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="blog">
+      <section class="blog" id="blog">
         <div class="blog-iner container">
           <div class="blog-iner-items row">
-            <div class="blog-iner-items__title col-xl-4 col-md-12 col-12">
-              <div class="blog-iner-items__title__iner">
-                <p>LATEST</p>
-                <span>BLOG</span>
-              </div>
-            </div>
-            <div class="blog-iner-items__item col-xl-4 col-md-12 col-12">
-              <div class="blog-iner-items__item__content">
-                <div class="blog-iner-items__item__content__iner">
-                  <p>DEC 10,2022</p>
-                  <h2>Royal Yacht Club Cocktail</h2>
-                  <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iste dolorum possimus rerum laborum officiis voluptatibus, odit earum blanditiis ipsa! ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, labore dolor placeat officia nemo ducimus.</span>
-                  <h4>ALL ABOUT COFFEE</h4>
+            <div class="col-lg-4 col-12">
+              <div class="blog-iner-items__title">
+                <div class="blog-iner-items__title__iner">
+                  <p>LATEST</p>
+                  <span>BLOG</span>
                 </div>
               </div>
             </div>
-            <div class="blog-iner-items__item col-xl-4 col-md-12 col-12">
-              <div class="blog-iner-items__item__content">
-                <div class="blog-iner-items__item__content__iner">
-                  <p>DEC 10,2022</p>
-                  <h2>Chocolate Muffins Gift</h2>
-                  <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iste dolorum possimus rerum laborum officiis voluptatibus, odit earum blanditiis ipsa! ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, labore dolor placeat officia nemo ducimus.</span>
-                  <h4>ALL ABOUT COFFEE</h4>
+            <div class="col-lg-4 col-12">
+              <div class="blog-iner-items__item">
+                <div class="blog-iner-items__item__content">
+                  <div class="blog-iner-items__item__content__iner">
+                    <p>DEC 10,2022</p>
+                    <h2>Royal Yacht Club Cocktail</h2>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iste dolorum possimus rerum laborum officiis voluptatibus, odit earum blanditiis ipsa! ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, labore dolor placeat officia nemo ducimus.</span>
+                    <h4>ALL ABOUT COFFEE</h4>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="blog-iner-items__item col-xl-4 col-md-12 col-12">
-              <div class="blog-iner-items__item__content">
-                <div class="blog-iner-items__item__content__iner">
-                  <p>DEC 10,2022</p>
-                  <h2>Borscht According to a Special Recipe</h2>
-                  <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iste dolorum possimus rerum laborum officiis voluptatibus, odit earum blanditiis ipsa! ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, labore dolor placeat officia nemo ducimus.</span>
-                  <h4>ALL ABOUT COFFEE</h4>
+            <div class="col-lg-4 col-12">
+              <div class="blog-iner-items__item">
+                <div class="blog-iner-items__item__content">
+                  <div class="blog-iner-items__item__content__iner">
+                    <p>DEC 10,2022</p>
+                    <h2>Chocolate Muffins Gift</h2>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iste dolorum possimus rerum laborum officiis voluptatibus, odit earum blanditiis ipsa! ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, labore dolor placeat officia nemo ducimus.</span>
+                    <h4>ALL ABOUT COFFEE</h4>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="blog-iner-items__item col-xl-4 col-md-12 col-12">
-              <div class="blog-iner-items__item__content">
-                <div class="blog-iner-items__item__content__iner">
-                  <p>DEC 10,2022</p>
-                  <h2>Chiles add more than heat to menus</h2>
-                  <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iste dolorum possimus rerum laborum officiis voluptatibus, odit earum blanditiis ipsa! ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, labore dolor placeat officia nemo ducimus.</span>
-                  <h4>ALL ABOUT COFFEE</h4>
+            <div class="col-lg-4 col-12">
+              <div class="blog-iner-items__item">
+                <div class="blog-iner-items__item__content">
+                  <div class="blog-iner-items__item__content__iner">
+                    <p>DEC 10,2022</p>
+                    <h2>Borscht According to a Special Recipe</h2>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iste dolorum possimus rerum laborum officiis voluptatibus, odit earum blanditiis ipsa! ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, labore dolor placeat officia nemo ducimus.</span>
+                    <h4>ALL ABOUT COFFEE</h4>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="blog-iner-items__item col-xl-4 col-md-12 col-12">
-              <div class="blog-iner-items__item__content">
-                <div class="blog-iner-items__item__content__iner">
-                  <p>DEC 10,2022</p>
-                  <h2>TChocolate Muffins Gift</h2>
-                  <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iste dolorum possimus rerum laborum officiis voluptatibus, odit earum blanditiis ipsa! ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, labore dolor placeat officia nemo ducimus.</span>
-                  <h4>ALL ABOUT COFFEE</h4>
+            <div class="col-lg-4 col-12">
+              <div class="blog-iner-items__item">
+                <div class="blog-iner-items__item__content">
+                  <div class="blog-iner-items__item__content__iner">
+                    <p>DEC 10,2022</p>
+                    <h2>Chiles add more than heat to menus</h2>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iste dolorum possimus rerum laborum officiis voluptatibus, odit earum blanditiis ipsa! ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, labore dolor placeat officia nemo ducimus.</span>
+                    <h4>ALL ABOUT COFFEE</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-12">
+              <div class="blog-iner-items__item">
+                <div class="blog-iner-items__item__content">
+                  <div class="blog-iner-items__item__content__iner">
+                    <p>DEC 10,2022</p>
+                    <h2>TChocolate Muffins Gift</h2>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iste dolorum possimus rerum laborum officiis voluptatibus, odit earum blanditiis ipsa! ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, labore dolor placeat officia nemo ducimus.</span>
+                    <h4>ALL ABOUT COFFEE</h4>
+                  </div>
                 </div>
               </div>
             </div>
@@ -366,71 +434,79 @@
       <section class="reviews">
         <div class="reviews-iner container">
           <div class="reviews-iner-items row">
-            <div class="reviews-iner-items__titles col-12">
-              <div class="reviews-iner-items__titles__text mb-5">
-                <p>Reviews</p>
-              </div>
-            </div>
-            <div class="reviews-iner-items__item col-lg-4 col-12">
-              <div class="reviews-iner-items__item__iner card border shadow">
-                <img src="./image/review/01.jpg" alt="Akku coffe">
-                <div class="reviews-iner-items__item__iner__contents card-body text-center">
-                  <h4>Very Nice Environment</h4>
-                  <div class="reviews-iner-items__item__iner__contents__star">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                  </div>
-                  <p class="reviews-iner-items__item__iner__contents__content">
-                    It is very hard to find a good cafe. This place is such a beautiful thing that has happened to us. The food is delicious and the coffee is brilliant. It's definitely a big bang for a little buck.
-                  </p>
-                  <p class="reviews-iner-items__item__iner__contents__name fw-bold">
-                    Rohit Sharma,India
-                  </p>
+            <div class="col-12">
+              <div class="reviews-iner-items__titles">
+                <div class="reviews-iner-items__titles__text mb-5">
+                  <p>Reviews</p>
                 </div>
               </div>
             </div>
-            <div class="reviews-iner-items__item col-lg-4 col-12">
-              <div class="reviews-iner-items__item__iner card border shadow">
-                <img src="./image/review/02.jpg" alt="Akku coffe">
-                <div class="reviews-iner-items__item__iner__contents card-body text-center">
-                  <h4>Awesome Burger</h4>
-                  <div class="reviews-iner-items__item__iner__contents__star">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
+            <div class="col-lg-4 col-12">
+              <div class="reviews-iner-items__item">
+                <div class="reviews-iner-items__item__iner card border shadow">
+                  <img src="./image/review/01.jpg" alt="Akku coffe">
+                  <div class="reviews-iner-items__item__iner__contents card-body text-center">
+                    <h4>Very Nice Environment</h4>
+                    <div class="reviews-iner-items__item__iner__contents__star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="reviews-iner-items__item__iner__contents__content">
+                      It is very hard to find a good cafe. This place is such a beautiful thing that has happened to us. The food is delicious and the coffee is brilliant. It's definitely a big bang for a little buck.
+                    </p>
+                    <p class="reviews-iner-items__item__iner__contents__name fw-bold">
+                      Rohit Sharma,India
+                    </p>
                   </div>
-                  <p class="reviews-iner-items__item__iner__contents__content">
-                    It is very hard to find a good cafe. This place is such a beautiful thing that has happened to us. The food is delicious and the coffee is brilliant. It's definitely a big bang for a little buck.
-                  </p>
-                  <p class="reviews-iner-items__item__iner__contents__name fw-bold">
-                    Steven Smith,Sydney
-                  </p>
                 </div>
               </div>
             </div>
-            <div class="reviews-iner-items__item col-lg-4 col-12">
-              <div class="reviews-iner-items__item__iner card border shadow">
-                <img src="./image/review/03.jpg" alt="Akku coffe">
-                <div class="reviews-iner-items__item__iner__contents card-body text-center">
-                  <h4>Amazing Decorations</h4>
-                  <div class="reviews-iner-items__item__iner__contents__star">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
+            <div class="col-lg-4 col-12">
+              <div class="reviews-iner-items__item">
+                <div class="reviews-iner-items__item__iner card border shadow">
+                  <img src="./image/review/02.jpg" alt="Akku coffe">
+                  <div class="reviews-iner-items__item__iner__contents card-body text-center">
+                    <h4>Awesome Burger</h4>
+                    <div class="reviews-iner-items__item__iner__contents__star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="reviews-iner-items__item__iner__contents__content">
+                      It is very hard to find a good cafe. This place is such a beautiful thing that has happened to us. The food is delicious and the coffee is brilliant. It's definitely a big bang for a little buck.
+                    </p>
+                    <p class="reviews-iner-items__item__iner__contents__name fw-bold">
+                      Steven Smith,Sydney
+                    </p>
                   </div>
-                  <p class="reviews-iner-items__item__iner__contents__content">
-                    It is very hard to find a good cafe. This place is such a beautiful thing that has happened to us. The food is delicious and the coffee is brilliant. It's definitely a big bang for a little buck.
-                  </p>
-                  <p class="reviews-iner-items__item__iner__contents__name fw-bold">
-                    Moen Ali,Pakisthan
-                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-12">
+              <div class="reviews-iner-items__item">
+                <div class="reviews-iner-items__item__iner card border shadow">
+                  <img src="./image/review/03.jpg" alt="Akku coffe">
+                  <div class="reviews-iner-items__item__iner__contents card-body text-center">
+                    <h4>Amazing Decorations</h4>
+                    <div class="reviews-iner-items__item__iner__contents__star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="reviews-iner-items__item__iner__contents__content">
+                      It is very hard to find a good cafe. This place is such a beautiful thing that has happened to us. The food is delicious and the coffee is brilliant. It's definitely a big bang for a little buck.
+                    </p>
+                    <p class="reviews-iner-items__item__iner__contents__name fw-bold">
+                      Moen Ali,Pakisthan
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -440,44 +516,166 @@
       <section class="chefs">
         <div class="chefs-iner container">
           <div class="chefs-iner-items row">
-            <div class="chefs-iner-items__title col-lg-12 col-6"></div>
+            <div class="col-12">
+              <div class="chefs-iner-items__title">
+                <p>Meet Our Chefs</p>
+              </div>
+            </div>
+            <div class="chefs-iner-items__text col-lg-6 col-12">
+              <h3 class="fw-bold">Mr. John</h3>
+              <h5 class="fw-bold mt-4 mb-2">Master Chef In New York</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem repudiandae ipsam, harum nostrum quos ipsa numquam, nulla unde magnam distinctio!</p>
+            </div>
+            <div class="col-lg-6 col-12">
+              <div class="chefs-iner-items__img">
+                <div class="chefs-iner-items__img__1">
+                  <img src="./image/chefs/01.jpg" alt="Akku coffe">
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-12">
+              <div class="chefs-iner-items__img">
+                <div class="chefs-iner-items__img__1">
+                  <img src="./image/chefs/02.jpg" alt="Akku coffe">
+                </div>
+              </div>
+            </div>
+            <div class="chefs-iner-items__text col-lg-6 col-12">
+              <h3 class="fw-bold">Mr. John</h3>
+              <h5 class="fw-bold mt-4 mb-2">Master Chef In New York</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem repudiandae ipsam, harum nostrum quos ipsa numquam, nulla unde magnam distinctio!</p>
+            </div>
+            <div class="chefs-iner-items__text col-lg-6 col-12">
+              <h3 class="fw-bold">Mr. John</h3>
+              <h5 class="fw-bold mt-4 mb-2">Master Chef In New York</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem repudiandae ipsam, harum nostrum quos ipsa numquam, nulla unde magnam distinctio!</p>
+            </div>
+            <div class="col-lg-6 col-12">
+              <div class="chefs-iner-items__img">
+                <div class="chefs-iner-items__img__1">
+                  <img src="./image/chefs/03.jpg" alt="Akku coffe">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contacts-us" id="contacts">
+        <div class="container py-5">
+          <div class="row py-5">
+            <div class="col-12">
+              <div class="contacts-us__title">
+                <p>Contact Us</p>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="contacts-us-form">
+                <div class="col-lg-6 col-12">
+                  <div class="contacts-us-form__input">
+                    <div class="form__group field">
+                      <input type="input" class="form__field" placeholder="Name" name="name" id='name' required />
+                      <label for="name" class="form__label">Your Name</label>
+                    </div>
+                  </div>
+                  <div class="contacts-us-form__input">
+                    <div class="form__group field">
+                      <input type="input" class="form__field" placeholder="Name" name="name" id='name' required />
+                      <label for="name" class="form__label">Email address</label>
+                    </div>
+                  </div>
+                  <div class="contacts-us-form__input">
+                    <div class="form__group field">
+                      <input type="input" class="form__field" placeholder="Name" name="name" id='name' required />
+                      <label for="name" class="form__label">Your Subject</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                  <div class="contacts-us-form__input__mess">
+                    <div class="form__group field">
+                      <input type="input" class="form__field" placeholder="Name" name="name" id='name' required />
+                      <label for="name" class="form__label">Your Name</label>
+                    </div>
+                  </div>
+                  <div class="contacts-us-form__input__btn">
+                    <button type="submit" class="btn button-one">Send message</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="address">
+        <div class="container py-5">
+          <div class="py-5 my-5">
+            <div class="address-iner">
+              <div class="col-lg-4 col-12">
+                <div class="address-iner__item">
+                  <i class="fa-sharp h1 mb-4 fa-solid fa-location-dot"></i>
+                  <h3 class="fw-bold mb-3">Location</h3>
+                  <h5>08 W 36th St, New York, NY 10001</h5>
+                </div>
+              </div>
+              <div class="col-lg-4 col-12">
+                <div class="address-iner__item">
+                  <i class="fa-sharp h1 mb-4 fa-solid fa-location-dot"></i>
+                  <h3 class="fw-bold mb-3">Opening Hour</h3>
+                  <h5>Monday to Friday</h5>
+                  <p>09 : 00 - 22 : 00</p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-12">
+                <div class="address-iner__item">
+                  <i class="fa-sharp h1 mb-4 fa-solid fa-location-dot"></i>
+                  <h3 class="fw-bold mb-3">Contact Us</h3>
+                  <h5>Phone: +11 22 33 44 55</h5>
+                  <p>Email: contact@example.com.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="landing-end">
+        <div class="container py-5">
+          <div class="landing-end-iner">
+            <div class="col-lg-3 col-md-4 col-12">
+              <div class="landing-end-iner__logo">
+                <img src="./image/logo.png" alt="">
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-8 col-12 my-auto">
+              <div class="landing-end-iner__text">
+                <p>© Copyright 2022 - Stradale by Designesia</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-12 my-auto">
+              <div class="landing-end-iner__items">
+                <div class="landing-end-iner__items__item">
+                  <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa-brands fa-discord"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa-brands fa-reddit"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
     </main>
-    <script type="text/javascript">
-      $(document).ready(function(){
-          $('.items__carousel').owlCarousel({
-              loop: false,
-              margin: 0,
-              // items: 3,
-              dots: false,
-              nav: true,
-              navElement: 'button type="button" aria-label="Nav"',
-              navText: ['<i class="fa fa-step-backward" aria-hidden="true"></i>','<i class="fa fa-step-forward" aria-hidden="true"></i>'],
-              smartSpeed: 1200,
-              autoHeight: false,
-              autoplay: false,
-              mouseDrag: false,
-              startPosition: 0,
-              responsive:{
-                  0:{
-                      items:1,
-                      nav:true
-                  },  
-                  600:{
-                      items:3,
-                      nav:true
-                  },
-                  1000:{
-                      items:3,
-                      nav:true,
-                      loop:false
-                  }
-              }
-          });
-      });
-    </script>
+    <script type="text/javascript" src="./assets/js/script.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="" rel="stylesheet">

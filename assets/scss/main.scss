@@ -773,9 +773,12 @@ $color-akku: #00A99C;
                 text-align: center;
             }
             &__items{
-                a{
-                    width: 45px;
-                    height: 45px;
+                &__item{
+                    text-align: center;
+                    a{
+                        width: 45px;
+                        height: 45px;
+                    }
                 }
             }
         }

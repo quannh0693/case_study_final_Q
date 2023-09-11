@@ -867,7 +867,10 @@
   .landing-end-iner__text {
     text-align: center;
   }
-  .landing-end-iner__items a {
+  .landing-end-iner__items__item {
+    text-align: center;
+  }
+  .landing-end-iner__items__item a {
     width: 45px;
     height: 45px;
   }
